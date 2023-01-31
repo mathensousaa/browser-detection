@@ -16,7 +16,7 @@ var browserName = (function(agent) {
             return "MS IE";
 
         case agent.indexOf("firefox") > -1:
-            return "Mozzila Firefox";
+            return "Mozilla Firefox";
 
         case agent.indexOf("Safari") > -1:
             return "Safari";
